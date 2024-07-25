@@ -1,22 +1,44 @@
-### An Instagram Bot  
+# Instagram Bot
 
-#### Requirements:  
-- Python3
-- pip
+## Overview
+
+This project is a simple Instagram bot built using Python and the Instapy library. The bot is designed to automate interactions on Instagram, making it easier to engage with content and users.
+
+## Requirements
+
+- Python 3
+- `pip`
 - Instapy
-- firefox browser(for ease of running)
+- Firefox browser (for ease of running)
 
-#### Instructions  
-Create a folder and name it 'instagram bot', inside the folder create a python file 'instagram.py'
-Open the folder in your code editor(VS Code, Pycharm, Sublime etc.)
-Open the terminal and cd/foldername and the pip install Instapy
+## Setup Instructions
 
-Copy the code and paste in your work file.
+1. **Create Project Folder**
+   - Create a new folder named `instagram_bot`.
 
-To run the file in the terminal write 
-```python
-python3 'filename'
-```
+2. **Set Up Python File**
+   - Inside the `instagram_bot` folder, create a Python file named `instagram.py`.
 
-And that's it.
-Congratulations You have built your First Instagram Bot 👏👏
+3. **Install Dependencies**
+   - Open the folder in your preferred code editor (e.g., VS Code, PyCharm, Sublime Text).
+   - Open a terminal and navigate to the `instagram_bot` folder:
+     ```bash
+     cd path/to/instagram_bot
+     ```
+   - Install the Instapy library:
+     ```bash
+     pip install instapy
+     ```
+
+4. **Add Code**
+   - Copy the provided code into `instagram.py`.
+
+5. **Run the Bot**
+   - In the terminal, execute the script using:
+     ```bash
+     python3 instagram.py
+     ```
+
+## Congratulations!
+
+You've successfully built your first Instagram bot! 🎉👏
